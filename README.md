@@ -1,5 +1,5 @@
 # db-pipeline
-This project demonstrates how to design and build a complete end-to-end data pipeline that ingests data from multiple source systems and consolidates them into a single source of truth for analytics and reporting.
+This project shows how to design and build a complete end-to-end data pipeline that ingests data from multiple source systems and consolidates them into a single source of truth for analytics and reporting.
 
 The pipeline extracts data from:
 
@@ -11,9 +11,9 @@ Excel files
 
 SAP (demo via exported data)
 
-and loads them into a centralised SQL Server database hosted on Azure (or local SQL Server for learning purposes).
+and loads them into a centralised SQL Server database hosted on Azure.
 
-The system supports:
+**The system supports:**
 
 Incremental data loading (updates and deletes)
 
@@ -29,9 +29,9 @@ Role-based access for analysts
 
 Protection of sensitive (PII) data
 
-All tools used in this project are free and open-source, making it suitable for learning, teaching, and demonstration purposes.
+All tools used in this project are free and open-source.
 
-Objectives
+**Objectives**
 
 Build a reliable and scalable data pipeline using Python and SQL
 
